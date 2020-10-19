@@ -24,8 +24,7 @@ window.handleHomeRequest = () => {
 
  <!-- Header with image -->
     <header class="bgimg w3-display-container " id="home">
-      <div class="w3-display-middle w3-container  ">
-      <h1 class="main-text">Meal Sharing</h1>
+      
       </div>
       
     </header>
