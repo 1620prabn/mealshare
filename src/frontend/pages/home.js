@@ -136,11 +136,11 @@ window.handleHomeRequest = () => {
 
       <!-- End page content -->
 <footer class="w3-center  w3-padding-38 w3-large">
-<a href="https://www.facebook.com" target="_blank">
+<a href="https://www.facebook.com/1620prabn" target="_blank">
 <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-<a href="https://www.linkedin.com/in" target="_blank">
+<a href="https://www.linkedin.com/in/prabinmaharjan/" target="_blank">
 <i class="fa fa-linkedin w3-hover-opacity"></i></a>
-<a href="https://github.com" target="_blank">
+<a href="https://github.com/1620prabn" target="_blank">
 <i class="fa fa-github w3-hover-opacity"></i></a>   <br>       
 
 <p>   © 2020 Copyright :
