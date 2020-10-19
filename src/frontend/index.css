@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body,
+html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif, Montserrat;
+  background-color: black;
+}
+.main-text {
+  font-size: 5rem;
+  color: white;
+  font-weight: bolder;
+  /* font-style: oblique; */
+}
+#food {
+  padding-bottom: 20px;
+}
+h5,
+p1,
+p {
+  color: white;
+}
+
+h3 {
+  color: #ffffff;
+  border: 2px solid tomato;
+}
+.border1 {
+  border: 2px solid tomato;
+}
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/hero-image.jpg);
+  min-height: 40rem;
+  height: 80%;
+  border-bottom: 3px solid tomato;
+}
+
+.menu {
+  display: flex;
+}
+.meal-id-li {
+  top: 80%;
+  padding: 10rem 10px;
+  font-weight: bold;
+  border: rgb(44, 44, 44);
+  max-width: 300px;
+}
+
+.wrapper {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 0 20px;
+}
+.resImages {
+  width: 22rem;
+  height: 180px;
+  object-fit: cover;
+}
+.mealImages {
+  width: 22rem;
+  height: 180px;
+  object-fit: cover;
+}
+
+.form {
+  width: 40%;
+  margin: 0 auto;
+  background-image: url(../assets/hero-image.jpg);
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 10px;
+}
+.input-feilds {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+  width: 48%;
+}
+.input-feilds .input {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #000000;
+  width: 100%;
+}
+::-webkit-input-placeholder {
+  color: #242424;
+}
+.btn {
+  background: tomato;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.review-wrapper {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 0 20px;
+}
+.review-form {
+  background: #000;
+  width: 40%;
+  margin: 0 auto;
+  background-image: url(../assets/hero-image.jpg);
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 10px;
+}
+.review-input-feilds {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+  width: 48%;
+}
+.review-input-feilds .input {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  color: black;
+  width: 100%;
+}
+.btn-review {
+  background: tomato;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+::-webkit-input-placeholder {
+  color: #929292;
+}
+.bgco {
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+.allMeals {
+  list-style-type: none;
+  position: relative;
+  width: 50rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 20rem;
+  margin-top: 15rem;
+  text-align: center;
+}
+
+.reservations {
+  list-style-type: none;
+  position: relative;
+  width: 50rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 20rem;
+  margin-top: 5rem;
+}
+
+.search-bar {
+  position: absolute;
+  display: inline-block;
+  left: 55%;
+  top: 10rem;
+  transform: translate(-58%);
+  width: 95%;
+  max-width: 344px;
+  height: 48px;
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.search-bar input {
+  position: absolute;
+  left: 58%;
+  transform: translate(-58%);
+  width: 258px;
+  height: 40px;
+  left: 16rem;
+  margin: 4px 0;
+  border: 0;
+  border-radius: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+
+  outline: 0;
+}
+footer {
+  background-color: tomato;
+}
+.w3-col {
+  color: white;
+  font-size: 20px;
+}
+@media (max-width: 991px) {
+  body {
+    margin-left: 5px;
+  }
+  .allMeals {
+    flex-direction: column;
+    margin-left: 5px;
+    width: 100%;
+    width: 20rem;
+  }
+  .reservations {
+    flex-direction: column;
+    margin-left: 5px;
+    width: 100%;
+    width: 20rem;
+  }
+  .mealImages {
+    margin-left: 5px;
+  }
+  .search-bar {
+    left: 60%;
+    max-width: 300px;
+  }
+}
